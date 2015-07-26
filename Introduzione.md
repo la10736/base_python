@@ -247,7 +247,20 @@ Parlare di
 
 ## Il primo gioco python: indovina il numero!
 
+Dato un numero a caso intero chiede di indovinarlo contando il numro di tentativi. All'inizio facciamo vedere 
+come scrivere il programma inserendo le `print()` per capire cosa succede. Man mano facciamodare indizi (alto
+basso, lontano, vicino) e togliendo i `print()` si completa il gioco.
 
+Il gioco permette di imparare a usare
+
+* Variabili
+* nueri e stringhe
+* stampare messaggi
+* cicli
+* condizioni
+* chiedere valori all'utente
+* magari anche le eccezioni e funzioni se ci si trova davanti gente sgamata
+* Tutto questo in meno di 30 righe di codice
 
 ## Lo zen del *Pitone*
 **Da rimuovere anche se bisogna trovare un punto dove citarlo e richiamare alcune note**
