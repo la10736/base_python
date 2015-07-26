@@ -160,19 +160,9 @@ capire altre due regole
     1
     
 E' abbastanza chiaro che il *Pitone* è bravo a fare i conti e come tutti si arrabbia se gli si chiede di dividere 
-qualcosa per 0. Inoltre oltre alle classiche somme, sottrazoni e divisioni permette di fare elevamenti a potenza 
-`**` e calcolare il resto di una divisione `%`. Inoltre conosce tantissime altre funzioni matematiche, bisogna solo
+qualcosa per 0. Oltre alle classiche somme, sottrazoni e divisioni permette di fare elevamenti a potenza 
+`**` e calcolare il resto di una divisione `%`. Il *Pitone* conosce anche tantissime altre funzioni matematiche, bisogna solo
 dirgli dove cercarle (`import math`) ma di questo magari parliamo più avanti.
-
-E se definiamo qualcosa come dei numeri possiamo fare le operazioni? **Certamente**
-    
-
-    >>> a = 5
-    >>> b = 3
-    >>> c = 2
-    >>> d = (a + b)/c
-    >>> d
-    4.0
 
 ### Le stringhe
 
@@ -226,9 +216,7 @@ La cosa più ovvia: la stringa vuota.
 ### E con i nuovi nomi definiti?
 
 Cosa succede se definiamo dei nuovi nomi (da ora in poi siamo adulti e li chiamiamo *varibili*) e facciamo operazioni 
-con loro? 
-
-E se definiamo qualcosa come dei numeri o delle stribnghe possiamo fare le operazioni? **Certamente**
+con queste variabili? Se definiamo qualcosa come dei numeri o delle stribnghe possiamo fare le operazioni? **Certamente**
     
 
     >>> a = 5
@@ -244,8 +232,6 @@ E se definiamo qualcosa come dei numeri o delle stribnghe possiamo fare le opera
     >>> ciao * a
     'ciaociaociaociaociao'
     >>> che_bel_saluto = (ciao + spazio) * b
-    >>> •••••••••••
-    SyntaxError: invalid character in identifier
     >>> che_bel_saluto
     'ciao ciao ciao '
     
