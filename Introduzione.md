@@ -122,13 +122,13 @@ dire che qualcosa è uguale a qualcos'altro
     3
     >>> ciao = "Basta non ti voglio più salutare! Lasciami stare!"
     >>> ciao
-    "Basta non ti voglio più salutare! Lasciami stare!"
+    'Basta non ti voglio più salutare! Lasciami stare!'
 
 Ora, dopo che abbiamo definito `ciao` non si arrabbia più se scriviamo solo `ciao`, anzi ci risponde con quello che gli 
 abbiamo detto che vale 
 
 **ATTENZIONE** Questa volta il *Pitone* non ci ha risposto nulla quando abbiamo definieto `ciao`... questo ci porta a 
-definire altre due regole
+capire altre due regole
 
 1. Per definire qualcosa basta associarlo a qualcosa di definito
 2. Il *Pitone* stampa solo se trova un errore o gli diamo qualcosa di definito
