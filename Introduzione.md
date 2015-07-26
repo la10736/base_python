@@ -223,7 +223,7 @@ Quindi cosa vuol dire moltiplicare una striga per un numero negativo intero... c
     ''
 La cosa più ovvia: la stringa vuota.
 
-### E con i nuovi nome definiti?
+### E con i nuovi nomi definiti?
 
 Cosa succede se definiamo dei nuovi nomi (da ora in poi siamo adulti e li chiamiamo *varibili*) e facciamo operazioni 
 con loro? 
