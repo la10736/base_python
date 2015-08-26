@@ -25,12 +25,14 @@ non potremo dire al computer cose del tipo
         
 Ma dovremmo usare comandi del tipo:
 
-    if valore == valore_da_indovinare:
-        print("Sei stato un grande....hai indovinato")
-    elif valore > valore_da_indovinare:
-        print("Sei ancora un po abbondante")
-    else:
-        print("Io aggiungerei qualcosina")
+```python
+if valore == valore_da_indovinare:
+    print("Sei stato un grande....hai indovinato")
+elif valore > valore_da_indovinare:
+    print("Sei ancora un po abbondante")
+else:
+    print("Io aggiungerei qualcosina")
+```
 
 Notare che alcune parole sono necessariamente in inglese come `if`, `else`, `print` (`se`, `altrimenti`, `stampa`) 
 altre sono forma contratte come `elif` che e' una contrazzione di `else if` e altre restano in italiano. *Solo le parole
@@ -63,27 +65,29 @@ tipo:
 
 Ma andiamo avanti con i nostri esperiemnti (il *Pitone* incoraggia gli esperimenti):
 
-    >>> 1.3
-    1.3
-    >>> 4
-    4
-    >>> ciao
-    Traceback (most recent call last):
-      File "<pyshell#10>", line 1, in <module>
-        ciao
-    NameError: name 'ciao' is not defined
-    >>> "ciao"
-    'ciao'
-    >>> 'ciao'
-    'ciao'
-    >>> "ciao" == 'ciao'
-    True
-    >>> ciao come stai
-    SyntaxError: invalid syntax
-    >>> 'ciao come stai'
-    'ciao come stai'
-    >>> 7a
-    SyntaxError: invalid syntax
+```python
+>>> 1.3
+1.3
+>>> 4
+4
+>>> ciao
+Traceback (most recent call last):
+  File "<pyshell#10>", line 1, in <module>
+    ciao
+NameError: name 'ciao' is not defined
+>>> "ciao"
+'ciao'
+>>> 'ciao'
+'ciao'
+>>> "ciao" == 'ciao'
+True
+>>> ciao come stai
+SyntaxError: invalid syntax
+>>> 'ciao come stai'
+'ciao come stai'
+>>> 7a
+SyntaxError: invalid syntax
+```
 
 Quanti comportamenti diversi!!!!!
 
@@ -114,15 +118,17 @@ Possiamo quindi riassumere alcune regole:
 Ora chiediamoci: quale e' un modo semplice per definire qualcosa? La maniera più semplice per definire qualcosa è ...
 dire che qualcosa è uguale a qualcos'altro
 
-    >>> ciao = 'ciao'
-    >>> ciao
-    'ciao'
-    >>> ciao = 3
-    >>> ciao
-    3
-    >>> ciao = "Basta non ti voglio più salutare! Lasciami stare!"
-    >>> ciao
-    'Basta non ti voglio più salutare! Lasciami stare!'
+```python
+>>> ciao = 'ciao'
+>>> ciao
+'ciao'
+>>> ciao = 3
+>>> ciao
+3
+>>> ciao = "Basta non ti voglio più salutare! Lasciami stare!"
+>>> ciao
+'Basta non ti voglio più salutare! Lasciami stare!'
+```
 
 Ora, dopo che abbiamo definito `ciao` non si arrabbia più se scriviamo solo `ciao`, anzi ci risponde con quello che gli 
 abbiamo detto che vale 
@@ -137,28 +143,30 @@ capire altre due regole
 
 ### I Numeri
 
-    >>> 2 + 2
-    4
-    >>> 3 * 2
-    6
-    >>> 2 / 3
-    0.6666666666666666
-    >>> 6 / 3
-    2.0
-    >>> 5 - 7
-    -2
-    >>> 7 / 0
-    Traceback (most recent call last):
-      File "<pyshell#29>", line 1, in <module>
-        7 / 0
-    ZeroDivisionError: division by zero
-    >>> 2 ** 3
-    8
-    >>> 3 ** 2
-    9
-    >>> 7 % 3
-    1
-    
+```python
+>>> 2 + 2
+4
+>>> 3 * 2
+6
+>>> 2 / 3
+0.6666666666666666
+>>> 6 / 3
+2.0
+>>> 5 - 7
+-2
+>>> 7 / 0
+Traceback (most recent call last):
+  File "<pyshell#29>", line 1, in <module>
+    7 / 0
+ZeroDivisionError: division by zero
+>>> 2 ** 3
+8
+>>> 3 ** 2
+9
+>>> 7 % 3
+1
+```
+
 E' abbastanza chiaro che il *Pitone* è bravo a fare i conti e come tutti si arrabbia se gli si chiede di dividere 
 qualcosa per 0. Oltre alle classiche somme, sottrazoni e divisioni permette di fare elevamenti a potenza 
 `**` e calcolare il resto di una divisione `%`. Il *Pitone* conosce anche tantissime altre funzioni matematiche, bisogna solo
@@ -172,35 +180,37 @@ Ricordatevi: **Il *Pitone* non si arrabbia se voi provate**. Comunque non morde,
 
 Quindi:
 
-    >>> 'ciao' + ' ' + 'a tutti'
-    'ciao a tutti'
-    >>> 'ciao' * 2
-    'ciaociao'
-    >>> 'ciao' + 2
-    Traceback (most recent call last):
-      File "<pyshell#48>", line 1, in <module>
-        'ciao' + 2
-    TypeError: Can't convert 'int' object to str implicitly
-    >>> 'ciao' * 2.1
-    Traceback (most recent call last):
-      File "<pyshell#49>", line 1, in <module>
-        'ciao' * 2.1
-    TypeError: can't multiply sequence by non-int of type 'float'
-    >>> 'ciao' / 2
-    Traceback (most recent call last):
-      File "<pyshell#45>", line 1, in <module>
-        'ciao' / 2
-    TypeError: unsupported operand type(s) for /: 'str' and 'int'
-    >>> 'ciao' - 'ciao'
-    Traceback (most recent call last):
-      File "<pyshell#46>", line 1, in <module>
-        'ciao' - 'ciao'
-    TypeError: unsupported operand type(s) for -: 'str' and 'str'
-    >>> 'ciao' * 'ciao'
-    Traceback (most recent call last):
-      File "<pyshell#47>", line 1, in <module>
-        'ciao' * 'ciao'
-    TypeError: can't multiply sequence by non-int of type 'str'
+```python
+>>> 'ciao' + ' ' + 'a tutti'
+'ciao a tutti'
+>>> 'ciao' * 2
+'ciaociao'
+>>> 'ciao' + 2
+Traceback (most recent call last):
+  File "<pyshell#48>", line 1, in <module>
+    'ciao' + 2
+TypeError: Can't convert 'int' object to str implicitly
+>>> 'ciao' * 2.1
+Traceback (most recent call last):
+  File "<pyshell#49>", line 1, in <module>
+    'ciao' * 2.1
+TypeError: can't multiply sequence by non-int of type 'float'
+>>> 'ciao' / 2
+Traceback (most recent call last):
+  File "<pyshell#45>", line 1, in <module>
+    'ciao' / 2
+TypeError: unsupported operand type(s) for /: 'str' and 'int'
+>>> 'ciao' - 'ciao'
+Traceback (most recent call last):
+  File "<pyshell#46>", line 1, in <module>
+    'ciao' - 'ciao'
+TypeError: unsupported operand type(s) for -: 'str' and 'str'
+>>> 'ciao' * 'ciao'
+Traceback (most recent call last):
+  File "<pyshell#47>", line 1, in <module>
+    'ciao' * 'ciao'
+TypeError: can't multiply sequence by non-int of type 'str'
+```
 
 Non solo molte le operazioni che possiamo fare con le strighe, ma sono quelle ragionevoli:
 
@@ -209,8 +219,11 @@ Non solo molte le operazioni che possiamo fare con le strighe, ma sono quelle ra
 
 Quindi cosa vuol dire moltiplicare una striga per un numero negativo intero... chiediamo al *Pitone*:
 
-    >>> 'ciao' * (-1)
-    ''
+```python
+>>> 'ciao' * (-1)
+''
+```
+
 La cosa più ovvia: la stringa vuota.
 
 ### E con i nuovi nomi definiti?
@@ -218,23 +231,24 @@ La cosa più ovvia: la stringa vuota.
 Cosa succede se definiamo dei nuovi nomi (da ora in poi siamo adulti e li chiamiamo *varibili*) e facciamo operazioni 
 con queste variabili? Se definiamo qualcosa come dei numeri o delle stribnghe possiamo fare le operazioni? **Certamente**
     
+```python
+>>> a = 5
+>>> b = 3
+>>> c = 2
+>>> d = (a + b)/c
+>>> d
+4.0
+>>> ciao = 'ciao'
+>>> spazio = ' '
+>>> ciao + spazio + ciao
+'ciao ciao'
+>>> ciao * a
+'ciaociaociaociaociao'
+>>> che_bel_saluto = (ciao + spazio) * b
+>>> che_bel_saluto
+'ciao ciao ciao '
+```
 
-    >>> a = 5
-    >>> b = 3
-    >>> c = 2
-    >>> d = (a + b)/c
-    >>> d
-    4.0
-    >>> ciao = 'ciao'
-    >>> spazio = ' '
-    >>> ciao + spazio + ciao
-    'ciao ciao'
-    >>> ciao * a
-    'ciaociaociaociaociao'
-    >>> che_bel_saluto = (ciao + spazio) * b
-    >>> che_bel_saluto
-    'ciao ciao ciao '
-    
 Quanto è furbo sto *Pitone*: *capisce le operazioni da giuste da fare*.
 
 ## E Adesso?
