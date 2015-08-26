@@ -545,14 +545,15 @@ nel ciclo `while`. 5 Minuti... ce la potete fare! Per un confronto guardate [qu�
 
 Ora proviamo a fare 
 
-# `stampa_intro(numero_tentativo)`
-# `chiedi_numero_in_intervallo(min_val, max_val)`
-# `stampa_info(numero_tentativo, obbiettivo, numero)`
-# `esci_se_uguale(obbiettivo, numero)`
+* `stampa_intro(numero_tentativo)`
+* `chiedi_numero_in_intervallo(min_val, max_val)`
+* `stampa_info(numero_tentativo, obbiettivo, numero)`
+* `esci_se_uguale(obbiettivo, numero)`
 
 Un piccolo aiutino: sostituite `numero_da_indovinare = random.randint(minimo, massimo)` con il vecchio  
 `numero_da_indovinare = 1234` e usate il carattere `#` per commentare la vecchia riga fino a quando il vostro programma 
-non funzionerà bene come prima, quando tutto funzionera rimettete il numero casuale.
+non funzionerà bene come prima. Verificate provando che il gioco funziona a ogni modifica del vostro programma. Qunado
+avete finito e tutto funziona bene potete rimettere il numero casuale.
 
 Forse per fare questo ci vuole un po di tempo e tanti tentativi e la soluzione che trovate [quì](indovina_refact_2.py)
 è un tantino esagerata (ma non troppo... si può fare molto meglio) ma credo che ora leggendo il vostro gioco capite 
