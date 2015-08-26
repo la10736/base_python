@@ -509,7 +509,7 @@ ab non sembra un numero
 Bene allora abbiamo tutti gli strumenti.... 3 minuti, non uno di più! Ecco una possibile 
 [soluzione](indovina_protetto.py)
 
-## Tutto funziona correttamente: abbiamo finito?
+## Possiamo scrivere meglio in nostro gioco?
 
 Ci sono tante maniere di scrivere i programmi. Ma anche se danno lo stesso risultato non tutte sono uguali: infatti se 
 avessimo usato nomi diversi per chiamare i nostri valori cosa poteva venire fuori? 
