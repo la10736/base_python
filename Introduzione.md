@@ -1,6 +1,6 @@
 # Introduzione a *Python*
 
-*Python* è un linguaggio di programmazione e è uno dei tanti modi che abbiamo per parlare al computer e dirgli quello 
+*Python* è un linguaggio di programmazione ed è uno dei tanti modi che abbiamo per parlare al computer e dirgli quello 
 che **deve fare**. Per far capire la lingua *Python* al nostro computer dobbiamo aver installato il programma di 
 traduzione (vedi la [pagina requisiti](requisiti.md)) e l'ambiente di sviluppo.
 
@@ -236,57 +236,7 @@ con queste variabili? Se definiamo qualcosa come dei numeri o delle stribnghe po
     'ciao ciao ciao '
     
 Quanto è furbo sto *Pitone*: *capisce le operazioni da giuste da fare*.
- 
-## Condizioni e Cicli
 
-Parlare di
+## E Adesso?
 
-* `if`, `else` e `elif`
-* `while cond` e in particolare `while True`...`break`
-* `for x in ...`
-
-## Il primo gioco python: indovina il numero!
-
-Dato un numero a caso intero chiede di indovinarlo contando il numro di tentativi. All'inizio facciamo vedere 
-come scrivere il programma inserendo le `print()` per capire cosa succede. Man mano facciamodare indizi (alto
-basso, lontano, vicino) e togliendo i `print()` si completa il gioco.
-
-Il gioco permette di imparare a usare
-
-* Variabili
-* nueri e stringhe
-* stampare messaggi
-* cicli
-* condizioni
-* chiedere valori all'utente
-* magari anche le eccezioni e funzioni se ci si trova davanti gente sgamata
-* Tutto questo in meno di 30 righe di codice
-
-## Lo zen del *Pitone*
-**Da rimuovere anche se bisogna trovare un punto dove citarlo e richiamare alcune note**
-
-    >>> import this
-    The Zen of Python, by Tim Peters
-    
-    Beautiful is better than ugly.
-    Explicit is better than implicit.
-    Simple is better than complex.
-    Complex is better than complicated.
-    Flat is better than nested.
-    Sparse is better than dense.
-    Readability counts.
-    Special cases aren't special enough to break the rules.
-    Although practicality beats purity.
-    Errors should never pass silently.
-    Unless explicitly silenced.
-    In the face of ambiguity, refuse the temptation to guess.
-    There should be one-- and preferably only one --obvious way to do it.
-    Although that way may not be obvious at first unless you're Dutch.
-    Now is better than never.
-    Although never is often better than *right* now.
-    If the implementation is hard to explain, it's a bad idea.
-    If the implementation is easy to explain, it may be a good idea.
-    Namespaces are one honking great idea -- let's do more of those!
-
-
-
+La base ora l'abbiamo... possiamo scrivere il nostro [primo gioco in Python](primo.md) 
